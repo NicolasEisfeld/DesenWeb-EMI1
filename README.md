@@ -1,2 +1,2 @@
-# DesenWeb1
-Desenvolvimento Web I
+# Desenvolvimento Web
+HTML, Javascript, CSS e PHP
