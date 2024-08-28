@@ -5,19 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercício 2 HTML</title>
 </head>
-<body>
-  <center>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+  :root {
+    --main-color: #9b6b43
+    --background: #f3e3d3
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    transition: 0.2 linear;
+  }
+  .pagina {
+    align-items: left;
+    justify-content: left;
+    min-width: 20rem;
+    color: var(--main-color);
+    background-color: var(--background);
+    font-family: Hanken Grotesk;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    word-spacing: 0.125rem;
+    letter-spacing: 0.019rem;
+    margin: 5rem 4rem;
+  }
+
+  h1 {
+    font-family: Geologica;
+  }
+</style>
+<body class="pagina">
     <table>
         <tr>
             <td><img  width="110" height="110" src="Imagens/logo.jpg"/></td>
 
             <a id="topo"></a>
 
-            <td><h1><b>  Café Starbuzz &reg;</b></h1></br>
+            <td><h1><b>Café Starbuzz &reg;</b></h1></br>
             </td> 
         </tr>
     </table>
-</center>
     <hr>
 
     <dd><h2>Mistura de Casa - R$ 1,49</h2>
